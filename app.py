@@ -322,7 +322,7 @@ with st.expander(t['step1_title'], expanded=True):
         st.error(t['limit_modal_title'])
         st.write(t['limit_modal_desc'])
         
-        st.link_button(t['buy_btn'], "https://lemonsqueezy.com", use_container_width=True)
+        st.link_button(t['buy_btn'], "https://waleed99.lemonsqueezy.com/checkout/buy/706f2e53-bd33-413e-93b4-1e45d522698a", use_container_width=True)
         
         with st.form("activation_form"):
             license_key = st.text_input(t['license_input'], type="password")
